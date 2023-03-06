@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  height: 80px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo img {
+  width: 125px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: #0d6efd;
+  letter-spacing: 0.05em;
+  justify-content: flex-end;
+}
+
+.nav-item a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav {
+  width: 50%;
+  font-size: 19px;
+}
+
+.sinscrire {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-color: #0d6efd;
+  font-size: 1em;
+}
+
+.trello-content {
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.paragraph-trello h1 {
+  font-size: 3em;
+  font-weight: 600;
+  color: #212529;
+}
+
+.paragraph-trello {
+  /* width: 50%; */
+  margin: 1.5em;
+  padding-left: 3rem;
+}
+
+.paragraph-trello p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #212529;
+  font-size: 1.5em;
+  font-family: "charlie";
+  line-height: 25px;
+}
+
+.form-trelomail input {
+  width: 30%;
+  height: 75px;
+  font-size: 1.25rem;
+  color: gray;
+  margin-top: 3rem;
+  text-align: justify;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+}
+
+.form-trelomail button {
+  color: #fff;
+  height: 75px;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  font-size: 1.3em;
+  border-radius: 0.25rem;
+  padding: 10px;
+  /* text-align: justify; */
+}
+
+.image-trello img {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.email-input:hover {
+  border: 3px solid #0d6efd;
+  outline: none;
+}
+
+#btn:hover {
+  border: 3px solid #0d6efd;
+  outline: none;
+  background-color: #0b5ed7;
+}
